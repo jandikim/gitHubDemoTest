@@ -57,7 +57,6 @@ public class InclRecyclerAdapter extends RecyclerView.Adapter<InclRecyclerAdapte
         textViewName.setText(peopleDataSet.get(listPosition).getName());
         textViewEmail.setText(peopleDataSet.get(listPosition).getEmail());
         imageView.setImageResource(peopleDataSet.get(listPosition).getImage());
-//        alert("tset");
     }
 
     @Override
